@@ -45,3 +45,43 @@
 * Review Python basics (data types, control flow, functions, basic OOP).
 * Create and activate a specific Conda environment for the project within the project folder.
 * Practice running simple Python scripts in VS Code using the new environment.
+
+---
+
+## Day 2 - July 10, 2025
+
+**Planned for Today:**
+* Refresh Python basics (data types, operators, control flow, functions, basic OOP).
+* Understand and create a Conda virtual environment (`cyber_ai_env`).
+* Activate/deactivate the environment.
+* Integrate environment with VS Code.
+* Update dev_log and commit.
+
+**Accomplished:**
+* Refreshed Python basics by creating and running `python_refresher.py` (data types, operators, control flow, functions, basic OOP).
+* Understood the purpose of virtual environments for dependency management.
+* Successfully created `cyber_ai_env` with Python 3.9 using `conda create`.
+* Activated `cyber_ai_env` and verified it with `python --version` and `conda list`.
+* Successfully selected `cyber_ai_env` as the interpreter in VS Code.
+
+**New Concepts/Tools Learned:**
+* **Python Refresher:** Re-familiarized with core Python syntax and concepts.
+* **Virtual Environments:** Concept of isolated environments for projects.
+* **Conda Commands:** `conda create -n env_name python=X.X`, `conda activate env_name`, `conda deactivate`, `conda list`.
+* **VS Code Interpreter Selection:** How to link VS Code to a specific Conda environment.
+* **Logical `and` operator:** Clarified behavior (true only if both are true).
+* **`__init__` method:** Understood its role as constructor and that its name is fixed.
+
+**Challenges/Roadblocks:**
+* Initial confusion with the `condition1 and condition2` output, which was clarified.
+* Questioned fixed name of `__init__`, which was also clarified.
+* *(Add any other small issues you faced or concepts you found challenging today)*
+
+**Questions/Thoughts:**
+* Excited to start installing actual project libraries in the `cyber_ai_env` tomorrow.
+* Good to have the Python basics refreshed.
+
+**Next Steps (for Day 3 - July 11, 2025):**
+* Begin installing initial project dependencies (e.g., NumPy, Pandas) into `cyber_ai_env`.
+* Start structuring the project folders for code and data.
+* Begin foundational coding for the project.
