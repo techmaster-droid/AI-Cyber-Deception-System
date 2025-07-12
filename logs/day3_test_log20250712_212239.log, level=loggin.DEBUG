@@ -1,0 +1,5 @@
+Logging configured. Logs will be saved to: d:\MyCodingProjects\AI-Cyber-Deception-System\src\..\logs\day3_test_log20250712_212239.log, level=loggin.DEBUG
+This is an INFO message.
+This is a Warning message.
+This is a ERROR message.
+This is a CRITICAL message.

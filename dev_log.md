@@ -85,3 +85,47 @@
 * Begin installing initial project dependencies (e.g., NumPy, Pandas) into `cyber_ai_env`.
 * Start structuring the project folders for code and data.
 * Begin foundational coding for the project.
+
+---
+
+## Day 3 - July 12, 2025
+
+**Planned for Today:**
+* Review Day 2 dev_log.
+* Create standard project folder structure (src, data, notebooks, models, config, tests, logs).
+* Install initial core Python libraries (numpy, pandas) into cyber_ai_env.
+* Create requirements.txt to manage dependencies.
+* Start writing basic utility functions in utils.py.
+* Set up basic logging for the project.
+* Update dev_log and commit.
+
+**Accomplished:**
+* Reviewed Day 2 summary.
+* Created core project directories: `src/`, `data/` (with `raw/`, `processed/`, `simulated/`), `notebooks/`, `models/`, `config/`, `tests/`.
+* Successfully installed `numpy` and `pandas` into `cyber_ai_env` using `pip install`.
+* Generated `requirements.txt` using `pip freeze > requirements.txt`, capturing installed dependencies.
+* Created `src/utils.py` with a `setup_logging` function.
+* Successfully tested the `setup_logging` function, verifying console output and creation of a `logs/` directory with a log file inside.
+
+**New Concepts/Tools Learned:**
+* **Project Structure:** Standard layout for AI/data science projects (`src/`, `data/`, `logs/`, etc.).
+* **`pip install`**: Installing packages into a Conda environment.
+* **`pip freeze > requirements.txt`**: Generating a dependency list.
+* **Python `logging` module**: Basic setup for application logging (INFO, DEBUG, WARNING, ERROR, CRITICAL).
+* **`os` module**: Using `os.path.join`, `os.path.abspath`, `os.path.dirname`, `os.makedirs` for path and directory manipulation.
+* **Debugging:** Identifying and fixing a typo in code that affected output. (Very important learning!)
+
+**Challenges/Roadblocks:**
+* Initial feeling of forgetting basic concepts, which was addressed with a quick Conda refresher.
+* Clarifying the specific "forgetting" (Conda vs. Git/Python).
+* **Debugging a typo in the `utils.py` logging print statement that caused the DEBUG messages not to appear initially – successfully resolved!**
+
+**Questions/Thoughts:**
+* Feeling more confident after the debugging experience and active learning.
+* Ready to use these new utilities in more complex code.
+
+**Next Steps (for Day 4 - July 13, 2025):**
+* Develop a data acquisition utility (e.g., placeholder for reading initial data).
+* Start defining core components of the deception system (e.g., initial `deception_module.py`).
+* Continue integrating logging and project structure.
+
